@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e49b312d14b408b3b7091e599a672f80",
+    "content-hash": "58a6e7b918584ab308a49c97d98acc14",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -330,6 +330,492 @@
             "time": "2019-07-14T18:58:38+00:00"
         },
         {
+            "name": "npm-asset/babel--runtime",
+            "version": "7.5.5",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.5.5.tgz"
+            },
+            "require": {
+                "npm-asset/regenerator-runtime": ">=0.13.2,<0.14.0"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/backbone",
+            "version": "1.3.3",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/backbone/-/backbone-1.3.3.tgz"
+            },
+            "require": {
+                "npm-asset/underscore": ">=1.8.3"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/backbone-undo",
+            "version": "v0.2.6",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:osartun/Backbone.Undo.js.git",
+                "reference": "9817afb2e37ca59d01b55b14dd43c42c49db7757"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/osartun/Backbone.Undo.js/zipball/9817afb2e37ca59d01b55b14dd43c42c49db7757",
+                "reference": "9817afb2e37ca59d01b55b14dd43c42c49db7757"
+            },
+            "require": {
+                "npm-asset/backbone": ">=1.0.0",
+                "npm-asset/underscore": ">=1.4.4"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/cash-dom",
+            "version": "1.3.7",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/cash-dom/-/cash-dom-1.3.7.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/codemirror",
+            "version": "5.48.4",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.48.4.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/codemirror-formatting",
+            "version": "1.0.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/codemirror-formatting/-/codemirror-formatting-1.0.0.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/core-util-is",
+            "version": "1.0.2",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/file-saver",
+            "version": "1.3.8",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/file-saver/-/file-saver-1.3.8.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/font-awesome",
+            "version": "4.7.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "(OFL-1.1 AND MIT)"
+            ]
+        },
+        {
+            "name": "npm-asset/grapesjs",
+            "version": "0.15.3",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/grapesjs/-/grapesjs-0.15.3.tgz"
+            },
+            "require": {
+                "npm-asset/babel--runtime": ">=7.5.5,<8.0.0",
+                "npm-asset/backbone": "1.3.3",
+                "npm-asset/backbone-undo": ">=0.2.5,<0.3.0",
+                "npm-asset/cash-dom": ">=1.3.7,<2.0.0",
+                "npm-asset/codemirror": ">=5.48.2,<6.0.0",
+                "npm-asset/codemirror-formatting": ">=1.0.0,<2.0.0",
+                "npm-asset/font-awesome": ">=4.7.0,<5.0.0",
+                "npm-asset/keymaster": ">=1.6.2,<2.0.0",
+                "npm-asset/promise-polyfill": ">=8.1.3,<9.0.0",
+                "npm-asset/spectrum-colorpicker": ">=1.8.0,<2.0.0",
+                "npm-asset/underscore": ">=1.9.1,<2.0.0"
+            },
+            "type": "npm-asset",
+            "license": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "name": "npm-asset/grapesjs-aviary",
+            "version": "0.1.2",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/grapesjs-aviary/-/grapesjs-aviary-0.1.2.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "name": "npm-asset/grapesjs-blocks-basic",
+            "version": "0.1.8",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/grapesjs-blocks-basic/-/grapesjs-blocks-basic-0.1.8.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "name": "npm-asset/grapesjs-component-countdown",
+            "version": "0.1.3",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/grapesjs-component-countdown/-/grapesjs-component-countdown-0.1.3.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "name": "npm-asset/grapesjs-navbar",
+            "version": "0.1.5",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/grapesjs-navbar/-/grapesjs-navbar-0.1.5.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "name": "npm-asset/grapesjs-plugin-export",
+            "version": "0.1.5",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/grapesjs-plugin-export/-/grapesjs-plugin-export-0.1.5.tgz"
+            },
+            "require": {
+                "npm-asset/file-saver": ">=1.3.2,<2.0.0",
+                "npm-asset/jszip": ">=3.0.0,<4.0.0"
+            },
+            "type": "npm-asset",
+            "license": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "name": "npm-asset/grapesjs-plugin-filestack",
+            "version": "0.1.1",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/grapesjs-plugin-filestack/-/grapesjs-plugin-filestack-0.1.1.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "name": "npm-asset/grapesjs-plugin-forms",
+            "version": "0.3.6",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/grapesjs-plugin-forms/-/grapesjs-plugin-forms-0.3.6.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "name": "npm-asset/grapesjs-preset-webpage",
+            "version": "0.1.11",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/grapesjs-preset-webpage/-/grapesjs-preset-webpage-0.1.11.tgz"
+            },
+            "require": {
+                "npm-asset/grapesjs-aviary": ">=0.1.2,<0.2.0",
+                "npm-asset/grapesjs-blocks-basic": ">=0.1.7,<0.2.0",
+                "npm-asset/grapesjs-component-countdown": ">=0.1.2,<0.2.0",
+                "npm-asset/grapesjs-navbar": ">=0.1.5,<0.2.0",
+                "npm-asset/grapesjs-plugin-export": ">=0.1.5,<0.2.0",
+                "npm-asset/grapesjs-plugin-filestack": ">=0.1.1,<0.2.0",
+                "npm-asset/grapesjs-plugin-forms": ">=0.3.5,<0.4.0"
+            },
+            "type": "npm-asset",
+            "license": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "name": "npm-asset/immediate",
+            "version": "3.0.6",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/immediate/-/immediate-3.0.6.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/inherits",
+            "version": "2.0.4",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "ISC"
+            ]
+        },
+        {
+            "name": "npm-asset/isarray",
+            "version": "1.0.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/jszip",
+            "version": "3.2.2",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/jszip/-/jszip-3.2.2.tgz"
+            },
+            "require": {
+                "npm-asset/lie": "~3.3.0",
+                "npm-asset/pako": "~1.0.2",
+                "npm-asset/readable-stream": "~2.3.6",
+                "npm-asset/set-immediate-shim": "~1.0.1"
+            },
+            "type": "npm-asset",
+            "license": [
+                "(MIT OR GPL-3.0)"
+            ]
+        },
+        {
+            "name": "npm-asset/keymaster",
+            "version": "v1.6.3",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:madrobby/keymaster.git",
+                "reference": "f561f3864f5093e71b4051dc45032c26187e87f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/madrobby/keymaster/zipball/f561f3864f5093e71b4051dc45032c26187e87f6",
+                "reference": "f561f3864f5093e71b4051dc45032c26187e87f6"
+            },
+            "type": "npm-asset"
+        },
+        {
+            "name": "npm-asset/lie",
+            "version": "3.3.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/lie/-/lie-3.3.0.tgz"
+            },
+            "require": {
+                "npm-asset/immediate": "~3.0.5"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/pako",
+            "version": "1.0.10",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/pako/-/pako-1.0.10.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "(MIT AND Zlib)"
+            ]
+        },
+        {
+            "name": "npm-asset/process-nextick-args",
+            "version": "2.0.1",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/promise-polyfill",
+            "version": "8.1.3",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/promise-polyfill/-/promise-polyfill-8.1.3.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/readable-stream",
+            "version": "2.3.6",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.6.tgz"
+            },
+            "require": {
+                "npm-asset/core-util-is": "~1.0.0",
+                "npm-asset/inherits": "~2.0.3",
+                "npm-asset/isarray": "~1.0.0",
+                "npm-asset/process-nextick-args": "~2.0.0",
+                "npm-asset/safe-buffer": "~5.1.1",
+                "npm-asset/string_decoder": "~1.1.1",
+                "npm-asset/util-deprecate": "~1.0.1"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/regenerator-runtime",
+            "version": "0.13.3",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.3.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/safe-buffer",
+            "version": "5.1.2",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/set-immediate-shim",
+            "version": "1.0.1",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/set-immediate-shim/-/set-immediate-shim-1.0.1.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/spectrum-colorpicker",
+            "version": "1.8.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/spectrum-colorpicker/-/spectrum-colorpicker-1.8.0.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/string_decoder",
+            "version": "1.1.1",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz"
+            },
+            "require": {
+                "npm-asset/safe-buffer": "~5.1.0"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/underscore",
+            "version": "1.9.1",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/underscore/-/underscore-1.9.1.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/util-deprecate",
+            "version": "1.0.2",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v6.2.1",
             "source": {
@@ -625,6 +1111,47 @@
                 "shim"
             ],
             "time": "2019-08-06T08:03:45+00:00"
+        },
+        {
+            "name": "thecodeholic/yii2-grapesjs",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thecodeholic/yii2-grapesjs.git",
+                "reference": "fd765e8e0b4c94487d959cae1b1d354f7582497c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thecodeholic/yii2-grapesjs/zipball/fd765e8e0b4c94487d959cae1b1d354f7582497c",
+                "reference": "fd765e8e0b4c94487d959cae1b1d354f7582497c",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "thecodeholic\\yii2grapesjs\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Zura Sekhniashvili",
+                    "email": "zurasekhniashvili@gmail.com"
+                }
+            ],
+            "description": "Grapesjs AssetBundle and widgets",
+            "keywords": [
+                "extension",
+                "yii2",
+                "yii2 grapesjs"
+            ],
+            "time": "2019-08-31T09:51:43+00:00"
         },
         {
             "name": "yiisoft/yii2",
@@ -3798,7 +4325,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "thecodeholic/yii2-grapesjs": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
